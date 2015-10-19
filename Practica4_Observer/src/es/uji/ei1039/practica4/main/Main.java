@@ -12,6 +12,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		LoteriaPrimitiva loteria = new LoteriaPrimitiva();
+		Periodico periodico = new Periodico();
 		
 		List <Jugador> jugadores = new ArrayList<Jugador>();
 		Jugador David = new Jugador("David", Arrays.asList(1,2,3,4,5,6));
@@ -21,10 +22,17 @@ public class Main {
 		jugadores.add(Valeriu);
 		jugadores.add(Xavi);
 		
-		for (Jugador j : jugadores) {
-			loteria.registerObserver(j);
+		loteria.registerObserver(periodico);
+		
+		for ( Jugador j : jugadores )
+			loteria.registerObserver( j );
+		
+		for ( Jugador j : jugadores) {
+			j.registerObserver(periodico);
 		}
 		
+		
 		loteria.nuevoSorteo();
+		periodico.Show();
 	}
 }
