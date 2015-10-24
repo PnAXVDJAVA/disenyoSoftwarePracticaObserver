@@ -1,12 +1,8 @@
-package es.uji.ei1039.practica4.main;
+package es.uji.ei1039.practica4.observadoresLoteria;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import es.uji.ei1039.practica4.observer.IObserverJugador;
-import es.uji.ei1039.practica4.observer.IObserverSorteo;
 
 public class Periodico implements IObserverSorteo, IObserverJugador {
 	

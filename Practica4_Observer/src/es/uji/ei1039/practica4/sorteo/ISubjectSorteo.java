@@ -1,6 +1,6 @@
-package es.uji.ei1039.practica4.subject;
+package es.uji.ei1039.practica4.sorteo;
 
-import es.uji.ei1039.practica4.observer.IObserverSorteo;
+import es.uji.ei1039.practica4.observadoresLoteria.IObserverSorteo;
 
 public interface ISubjectSorteo {
 

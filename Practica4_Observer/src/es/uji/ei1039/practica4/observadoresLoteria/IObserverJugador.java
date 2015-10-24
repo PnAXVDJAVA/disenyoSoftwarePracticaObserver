@@ -1,4 +1,4 @@
-package es.uji.ei1039.practica4.observer;
+package es.uji.ei1039.practica4.observadoresLoteria;
 
 public interface IObserverJugador {
 	
