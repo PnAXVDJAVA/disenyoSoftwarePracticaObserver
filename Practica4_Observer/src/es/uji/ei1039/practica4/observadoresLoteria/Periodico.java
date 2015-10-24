@@ -22,7 +22,7 @@ public class Periodico implements IObserverSorteo, IObserverJugador {
 	public Periodico () {
 		this.numerosGanadores = null;
 		this.numeroAcertantesPorNumeroAciertos = new HashMap<>();
-		for (int i = 0; i < LoteriaConfig.CANTIDAD_NUMEROS; i++) {
+		for (int i = 0; i <= LoteriaConfig.CANTIDAD_NUMEROS; i++) {
 			this.numeroAcertantesPorNumeroAciertos.put(i, 0);
 		}
 	}
@@ -40,10 +40,13 @@ public class Periodico implements IObserverSorteo, IObserverJugador {
 	}
 
 	public void Show() {
+		int limiteInferiorNumAciertos = 3;
 		System.out.println("Los numeros ganadores son: " + this.numerosGanadores);
 		for (Integer numAcertantes : numeroAcertantesPorNumeroAciertos.keySet()) {
-			System.out.println("Numero de acertantes de " + numAcertantes + ": "
-								+ this.numeroAcertantesPorNumeroAciertos.get(numAcertantes));
+			if( numAcertantes >= limiteInferiorNumAciertos  ) {				
+				System.out.println("Numero de acertantes de " + numAcertantes + ": "
+						+ this.numeroAcertantesPorNumeroAciertos.get(numAcertantes));
+			}
 		}
 	}
 }

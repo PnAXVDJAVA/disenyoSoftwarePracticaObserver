@@ -4,4 +4,5 @@ public interface ISubjectJugador {
 
 	public void registerObserver (IObserverJugador jugador);
 	public void removeObserver (IObserverJugador jugador);
+	public void notifyObservers();
 }
