@@ -26,8 +26,8 @@ public class Main {
 		List <Jugador> jugadores = new ArrayList<Jugador>();
 		
 		Jugador David = new Jugador( "David", Arrays.asList( 1, 2, 3, 4, 5, 6 ) );
-		Jugador Valeriu = new Jugador( "Valeriu", Arrays.asList( 1, 2, 3, 15, 16, 17 ) );
-		Jugador Xavi = new Jugador( "Xavi", Arrays.asList( 1, 2, 3, 14, 15, 17 ) );
+		Jugador Valeriu = new Jugador( "Valeriu", Arrays.asList( 1, 2, 3, 15, 16, 48 ) );
+		Jugador Xavi = new Jugador( "Xavi", Arrays.asList( 1, 2, 3, 25, 30, 17 ) );
 		
 		jugadores.add( David );
 		jugadores.add( Valeriu );

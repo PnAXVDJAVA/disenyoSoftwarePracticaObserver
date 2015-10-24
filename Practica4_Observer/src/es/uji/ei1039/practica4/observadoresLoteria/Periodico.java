@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import es.uji.ei1039.practica4.sorteo.LoteriaConfig;
+
 public class Periodico implements IObserverSorteo, IObserverJugador {
 	
 	private List<Integer> numerosGanadores;
@@ -16,12 +18,11 @@ public class Periodico implements IObserverSorteo, IObserverJugador {
 	//ETC
 	
 	private Map<Integer, Integer> numeroAcertantesPorNumeroAciertos;
-	private final static int CANT_NUM_LOTERIA = 6;
 	
 	public Periodico () {
 		this.numerosGanadores = null;
 		this.numeroAcertantesPorNumeroAciertos = new HashMap<>();
-		for (int i = 0; i < CANT_NUM_LOTERIA; i++) {
+		for (int i = 0; i < LoteriaConfig.CANTIDAD_NUMEROS; i++) {
 			this.numeroAcertantesPorNumeroAciertos.put(i, 0);
 		}
 	}

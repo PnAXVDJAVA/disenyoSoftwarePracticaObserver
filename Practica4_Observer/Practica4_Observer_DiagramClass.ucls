@@ -5,7 +5,7 @@
     project="Practica4_Observer" 
     file="/Practica4_Observer/src/es/uji/ei1039/practica4/observadoresLoteria/Periodico.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="386" y="571"/>    
+    <position height="-1" width="-1" x="413" y="307"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -16,7 +16,7 @@
     project="Practica4_Observer" 
     file="/Practica4_Observer/src/es/uji/ei1039/practica4/observadoresLoteria/IObserverJugador.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="693" y="583"/>    
+    <position height="-1" width="-1" x="442" y="512"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -26,7 +26,7 @@
   <class id="3" language="java" name="es.uji.ei1039.practica4.observadoresLoteria.Jugador" project="Practica4_Observer" 
     file="/Practica4_Observer/src/es/uji/ei1039/practica4/observadoresLoteria/Jugador.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="810" y="309"/>    
+    <position height="-1" width="-1" x="710" y="297"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -36,7 +36,7 @@
   <class id="4" language="java" name="es.uji.ei1039.practica4.sorteo.LoteriaPrimitiva" project="Practica4_Observer" 
     file="/Practica4_Observer/src/es/uji/ei1039/practica4/sorteo/LoteriaPrimitiva.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="122" y="365"/>    
+    <position height="-1" width="-1" x="116" y="299"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -46,7 +46,7 @@
   <interface id="5" language="java" name="es.uji.ei1039.practica4.sorteo.ISubjectSorteo" project="Practica4_Observer" 
     file="/Practica4_Observer/src/es/uji/ei1039/practica4/sorteo/ISubjectSorteo.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="136" y="157"/>    
+    <position height="-1" width="-1" x="113" y="62"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -57,7 +57,7 @@
     project="Practica4_Observer" 
     file="/Practica4_Observer/src/es/uji/ei1039/practica4/observadoresLoteria/IObserverSorteo.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="684" y="94"/>    
+    <position height="-1" width="-1" x="376" y="73"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -68,62 +68,110 @@
     project="Practica4_Observer" 
     file="/Practica4_Observer/src/es/uji/ei1039/practica4/observadoresLoteria/ISubjectJugador.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="960" y="536"/>    
+    <position height="-1" width="-1" x="683" y="598"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <realization id="8">    
+  <interface id="8" language="java" name="es.uji.ei1039.practica4.sorteo.INumerosSorteoFactory" 
+    project="Practica4_Observer" 
+    file="/Practica4_Observer/src/es/uji/ei1039/practica4/sorteo/INumerosSorteoFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="167" y="507"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" language="java" name="es.uji.ei1039.practica4.sorteo.NumerosSorteoManipulado" 
+    project="Practica4_Observer" 
+    file="/Practica4_Observer/src/es/uji/ei1039/practica4/sorteo/NumerosSorteoManipulado.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="377" y="642"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="es.uji.ei1039.practica4.sorteo.NumerosSorteoRandom" project="Practica4_Observer" 
+    file="/Practica4_Observer/src/es/uji/ei1039/practica4/sorteo/NumerosSorteoRandom.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="145" y="636"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="11">    
     <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="6"/>  
   </realization>  
-  <dependency id="9">    
+  <dependency id="12">    
     <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="6"/>  
   </dependency>  
-  <realization id="10">    
+  <association id="13">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="14" name="numerosSorteoFactory"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="16">    
     <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="7"/>  
   </realization>  
-  <realization id="11">    
+  <realization id="17">    
     <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="5"/>  
   </realization>  
-  <association id="12">    
+  <association id="18">    
     <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="13" name="observers">        
-        <position height="0" width="0" x="0" y="0"/>      
+      <attribute id="19" name="observers">        
+        <position height="0" width="0" x="-308" y="-21"/>      
       </attribute>      
-      <multiplicity id="14" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="0" y="0"/>      
+      <multiplicity id="20" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-308" y="-21"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="6" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="15">    
+  <realization id="21">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <realization id="22">    
     <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="2"/>  
   </realization>  
-  <dependency id="16">    
+  <realization id="23">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <dependency id="24">    
     <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="2"/>  
   </dependency>  
-  <association id="17">    
+  <association id="25">    
     <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="18" name="observers">        
-        <position height="0" width="0" x="-19" y="8"/>      
+      <attribute id="26" name="observers">        
+        <position height="0" width="0" x="-270" y="-63"/>      
       </attribute>      
-      <multiplicity id="19" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="-19" y="8"/>      
+      <multiplicity id="27" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-270" y="-63"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="20">    
+  <realization id="28">    
     <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="6"/>  
   </realization>  
